@@ -1,0 +1,5 @@
+package rahulshettyacademy.ExtentReports;
+
+public @interface Test {
+
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="RestAuured" tests="2" started="2" failures="0" errors="2" ignored="0">
+  <testsuite name="cucumber.Options.TestRunner" time="2.066">
+    <testsuite name="Validating place API's" time="2.066">
+      <testcase name="Verify if place is being successfuly added using add place API #1" classname="Validating place API's" time="2.047">
+        <error>io.cucumber.junit.UndefinedStepException: The step "User calls "AddPlaceAPI" with "Post" http request" is undefined. You can implement it using the snippet(s) below:
+
+@When("User calls {string} with {string} http request")
+public void user_calls_with_http_request(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="Verify if place is being successfuly added using add place API #2" classname="Validating place API's" time="0.016">
+        <error>io.cucumber.junit.UndefinedStepException: The step "User calls "AddPlaceAPI" with "Post" http request" is undefined. You can implement it using the snippet(s) below:
+
+@When("User calls {string} with {string} http request")
+public void user_calls_with_http_request(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

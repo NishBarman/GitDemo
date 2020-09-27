@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="RestAuured" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="cucumber.Options.TestRunner" time="9.435">
+    <testsuite name="Validating place API's" time="9.435">
+      <testcase name="Verify if place is being successfuly added using add place API" classname="Validating place API's" time="9.435"/>
+    </testsuite>
+  </testsuite>
+</testrun>

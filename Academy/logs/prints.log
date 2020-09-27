@@ -1,0 +1,4 @@
+18:59:15.770 [TestNG-tests-2] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("commons/commons-inject-js_en_US.ftl"): Not found
+18:59:15.775 [TestNG-tests-2] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("commons/commons-inject-js_en.ftl"): Not found
+18:59:15.776 [TestNG-tests-2] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
+18:59:15.776 [TestNG-tests-2] DEBUG freemarker.cache - "commons/commons-inject-js.ftl"("en_US", UTF-8, parsed): using cached since jar:file:/C:/Users/nnishu/.m2/repository/com/aventstack/extentreports/4.1.4/extentreports-4.1.4.jar!/com/aventstack/extentreports/view/commons/commons-inject-js.ftl hasn't changed.

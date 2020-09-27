@@ -1,0 +1,70 @@
+package stepDefinations;
+
+import static io.restassured.RestAssured.given;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import pojo.Location;
+import pojo.addPlace;
+import io.cucumber.java.PendingException;
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import io.restassured.RestAssured;
+import io.restassured.builder.RequestSpecBuilder;
+import io.restassured.builder.ResponseSpecBuilder;
+import io.restassured.http.ContentType;
+import io.restassured.response.Response;
+import io.restassured.specification.RequestSpecification;
+import io.restassured.specification.ResponseSpecification;
+
+public class stepDefination {
+	 RequestSpecification res;
+	 ResponseSpecification resspec;
+	   @Given("^Add place Payload$")
+	    public void add_place_payload() throws Throwable {
+		   RestAssured.baseURI="https://rahulshettyacademy.com/";
+
+		   addPlace p=new addPlace();
+		   p.setAccuracy(40);
+		   p.setAddress("49, side layout, cohen 19");
+		   p.setLanguage("English");
+		   p.setName("Nishant");
+		   p.setPhone_number("(+91) 703 893 3937");
+		   p.setWebsite("http://google.com");
+		   List<String> mylist=new ArrayList<String>();
+		   mylist.add("shog park");
+		   mylist.add("shoe");
+		   p.setTypes(mylist);
+		   Location loc=new Location();
+		   loc.setLat(-48.383494);
+		   loc.setLng(43.427362);
+
+		   RequestSpecification req= new RequestSpecBuilder().setBaseUri("https://rahulshettyacademy.com").addQueryParam("key", "qaclick123")
+		   .setContentType(ContentType.JSON).build();
+		   p.setLocation(loc);
+
+		   resspec=new ResponseSpecBuilder().expectStatusCode(200).expectContentType(ContentType.JSON).build();
+		   res=given().spec(req).body(p);
+	    }
+
+	    @When("^User calls \"([^\"]*)\" with Post http request$")
+	    public void user_calls_something_with_post_http_request(String strArg1) throws Throwable {
+
+Response response=res.when().post("/maps/api/place/add/json").then().spec(resspec).extract().response();
+	    }
+
+	    @Then("^API call is success with status code 200$")
+	    public void api_call_is_success_with_status_code_200() throws Throwable {
+	        throw new PendingException();
+	    }
+
+	    @And("^\"([^\"]*)\" in response body is \"([^\"]*)\"$")
+	    public void something_in_response_body_is_something(String strArg1, String strArg2) throws Throwable {
+	        throw new PendingException();
+	    }
+
+	}
+

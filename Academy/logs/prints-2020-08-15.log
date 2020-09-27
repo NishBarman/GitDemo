@@ -1,0 +1,4 @@
+21:07:34.027 [TestNG-tests-2] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/scripts_en_US.ftl"): Not found
+21:07:34.033 [TestNG-tests-2] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/scripts_en.ftl"): Not found
+21:07:34.034 [TestNG-tests-2] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/scripts.ftl"): Found
+21:07:34.034 [TestNG-tests-2] DEBUG freemarker.cache - "spark/partials/scripts.ftl"("en_US", UTF-8, parsed): using cached since jar:file:/C:/Users/nnishu/.m2/repository/com/aventstack/extentreports/4.1.4/extentreports-4.1.4.jar!/com/aventstack/extentreports/view/spark/partials/scripts.ftl hasn't changed.

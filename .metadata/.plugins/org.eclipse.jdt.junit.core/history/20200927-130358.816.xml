@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="RestAuured" tests="2" started="2" failures="1" errors="1" ignored="0">
+  <testsuite name="cucumber.Options.TestRunner" time="11.186">
+    <testsuite name="Validating place API's" time="11.186">
+      <testcase name="Verify if place is being successfuly added using add place API" classname="Validating place API's" time="8.999">
+        <error>io.cucumber.junit.UndefinedStepException: The step "verify place_Id created maps to "Ahouse" using "getPlaceAPI" with "GET" http request" is undefined. You can implement it using the snippet(s) below:
+
+@Then("verify place_Id created maps to {string} using {string} with {string} http request")
+public void verify_place_id_created_maps_to_using_with_http_request(String string, String string2, String string3) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="Verify if place is being successfuly deleted using delete place API" classname="Validating place API's" time="2.184">
+        <failure>java.lang.AssertionError: expected:&lt;404&gt; but was:&lt;200&gt;&#13;
+	at org.junit.Assert.fail(Assert.java:88)&#13;
+	at org.junit.Assert.failNotEquals(Assert.java:743)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:118)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:555)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:542)&#13;
+	at stepDefinations.stepDefination.api_call_is_success_with_status_code(stepDefination.java:60)&#13;
+	at ✽.API call is success with status code 200(file:///C:/Users/nnishu/eclipse-workspace/RestAuured/src/test/java/features/placeValidations.feature:24)&#13;
+&#13;
+</failure>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

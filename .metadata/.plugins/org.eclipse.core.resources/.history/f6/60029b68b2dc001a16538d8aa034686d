@@ -1,0 +1,27 @@
+package Academy;
+
+import java.io.IOException;
+
+import org.testng.annotations.Test;
+
+import pageObject.LandingPage;
+import pageObject.LoginPage;
+import resources.Base;
+
+public class HomePage extends Base{
+	
+	@Test
+	public void basePageNavigation() throws IOException
+	{
+		driver=initializeDriver();
+		driver.get("https://rahulshettyacademy.com/#/index");
+		LandingPage l= new LandingPage(driver);
+		l.getLogin().click();
+		LoginPage lo= new LoginPage(driver);
+		lo.getEmail().sendKeys("hello@gmail.com");
+		lo.getPassword().sendKeys("123");
+		lo.clickLogin().click();
+		
+	}
+
+}

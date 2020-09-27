@@ -1,0 +1,276 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 40,
+    "name": "Ahouse",
+    "phone_number": "(+91) 703 893 3937",
+    "address": "WTC",
+    "website": "http://google.com",
+    "language": "English",
+    "location": {
+        "lat": -48.383494,
+        "lng": 41.427362
+    },
+    "types": [
+        "sho park",
+        "she"
+    ]
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 40,
+    "name": "Ahouse",
+    "phone_number": "(+91) 703 893 3937",
+    "address": "WTC",
+    "website": "http://google.com",
+    "language": "English",
+    "location": {
+        "lat": -48.383494,
+        "lng": 41.427362
+    },
+    "types": [
+        "sho park",
+        "she"
+    ]
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 40,
+    "name": "Bhouse",
+    "phone_number": "(+91) 703 893 3937",
+    "address": "Central Perk",
+    "website": "http://google.com",
+    "language": "Spanish",
+    "location": {
+        "lat": -48.383494,
+        "lng": 41.427362
+    },
+    "types": [
+        "sho park",
+        "she"
+    ]
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 40,
+    "name": "Bhouse",
+    "phone_number": "(+91) 703 893 3937",
+    "address": "Central Perk",
+    "website": "http://google.com",
+    "language": "Spanish",
+    "location": {
+        "lat": -48.383494,
+        "lng": 41.427362
+    },
+    "types": [
+        "sho park",
+        "she"
+    ]
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 40,
+    "name": "Ahouse",
+    "phone_number": "(+91) 703 893 3937",
+    "address": "WTC",
+    "website": "http://google.com",
+    "language": "English",
+    "location": {
+        "lat": -48.383494,
+        "lng": 41.427362
+    },
+    "types": [
+        "sho park",
+        "she"
+    ]
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 40,
+    "name": "Ahouse",
+    "phone_number": "(+91) 703 893 3937",
+    "address": "WTC",
+    "website": "http://google.com",
+    "language": "English",
+    "location": {
+        "lat": -48.383494,
+        "lng": 41.427362
+    },
+    "types": [
+        "sho park",
+        "she"
+    ]
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=ce2ae3ae1605a4ad8e6fb05eead5a702
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=ce2ae3ae1605a4ad8e6fb05eead5a702
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=ce2ae3ae1605a4ad8e6fb05eead5a702
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=ce2ae3ae1605a4ad8e6fb05eead5a702
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 40,
+    "name": "Bhouse",
+    "phone_number": "(+91) 703 893 3937",
+    "address": "Central Perk",
+    "website": "http://google.com",
+    "language": "Spanish",
+    "location": {
+        "lat": -48.383494,
+        "lng": 41.427362
+    },
+    "types": [
+        "sho park",
+        "she"
+    ]
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 40,
+    "name": "Bhouse",
+    "phone_number": "(+91) 703 893 3937",
+    "address": "Central Perk",
+    "website": "http://google.com",
+    "language": "Spanish",
+    "location": {
+        "lat": -48.383494,
+        "lng": 41.427362
+    },
+    "types": [
+        "sho park",
+        "she"
+    ]
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=6711818074b9f3ee441f6d0f78f87285
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=6711818074b9f3ee441f6d0f78f87285
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=6711818074b9f3ee441f6d0f78f87285
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=6711818074b9f3ee441f6d0f78f87285
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>

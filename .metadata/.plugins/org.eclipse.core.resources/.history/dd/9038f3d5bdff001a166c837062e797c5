@@ -1,0 +1,9 @@
+package resources;
+
+public class TestDataBuild {
+
+	public void addPlaceLoad()
+	{
+		
+	}
+}

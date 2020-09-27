@@ -1,0 +1,26 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Facebook {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+
+		//Create Driver object for chrome Browser
+		
+		/* Class name- ChromeDriver,
+		 
+		 X driver=new X();*/
+		//invoke .exe file first
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\nnishu\\Documents\\My Docs\\Selenium\\chromedriver.exe");
+		WebDriver driver= new ChromeDriver();
+		driver.get("https://www.facebook.com/");
+		driver.findElement(By.xpath("//*[@id=\"email\"]")).sendKeys("hello");;
+		driver.findElement(By.cssSelector("#pass")).sendKeys("123");;
+		driver.findElement(By.xpath("//*[@id=\"u_0_b\"]")).click();
+		Thread.sleep(5);
+		System.out.println(driver.findElement(By.className("_4rbf _53ij")).getText());
+	}
+
+}

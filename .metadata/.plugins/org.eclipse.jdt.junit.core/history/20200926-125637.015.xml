@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="RestAuured" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="cucumber.Options.TestRunner" time="0.371">
+    <testsuite name="Validating place API's" time="0.371">
+      <testcase name="Verify if place is being successfuly added using add place API" classname="Validating place API's" time="0.371">
+        <error>io.cucumber.junit.UndefinedStepException: The step "Add place Payload with "Ahouse" "English" "WTC"" is undefined. You can implement it using the snippet(s) below:
+
+@Given("Add place Payload with {string} {string} {string}")
+public void add_place_payload_with(String string, String string2, String string3) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@Then("API call is success with status code {int}")
+public void api_call_is_success_with_status_code(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

@@ -1,0 +1,23 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Facebook {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//Create Driver object for chrome Browser
+		
+		/* Class name- ChromeDriver,
+		 
+		 X driver=new X();*/
+		//invoke .exe file first
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\nnishu\\Documents\\My Docs\\Selenium\\chromedriver.exe");
+		WebDriver driver= new ChromeDriver();
+		driver.get("https://www.gmail.com/");
+		driver.findElement(By.xpath("//div[@class=\"h-c-header__cta h-c-header__cta--tier-two\"]//a[contains(text(),'Sign in')]")).click();
+		
+	}
+
+}
